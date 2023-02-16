@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+
+}
+
+#Portfolio {
+  font-weight: bold;
+  font-size: 28px;
+}
+#folio{
+    color:#880a0a ;
+}
+
+#Navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#Navbar li {
+  padding: 10px;
+  text-decoration: none;
+}
+#Navbar li:hover{
+    color: #880a0a;
+}
+#Subscribe {
+  padding: 10px 20px;
+  background-color: #880a0a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/*     */
+
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+
+
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    background-color: #000000;
+}
+#LefttextContainer{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+    margin-left: 2rem;
+}
+
+#FirstText{
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+
+    color: #880a0a;
+}
+
+#FullName{
+    font-size: 5rem;
+}
+#Lastname{
+    color: #880a0a;
+}
+#HobbyText{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+#EmailContainer{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+
+    margin-top: 5rem;
+}
+#EmailInput{
+    flex: 1;
+    padding: 20px;
+    width: 500px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;   
+}
+#EmailSubmit{
+    position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 5px;
+	background-color: #880a0a;
+	color: white;
+	padding: 15px 15px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+/*     */
+
+/*About Me*/
+
+#AboutMe{
+    position: relative;
+    min-height: 100vh;
+    background-color: #101111fa;
+    border-top: 2px solid #880a0a;
+}
+
+
+#AboutMe{
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    justify-content: space-between;
+}
+#AboutTitle{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#Hobby2Text{
+    font-size:  1.5rem;
+}
+#CardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+#dev{
+    color: #880a0a;
+}
+#TextMe{
+    margin-top: 20px;
+    width: 20rem;
+    font-size: 2rem;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#RedesContainer{
+    
+    padding-right: 3rem;
+}
+/*   */
+
+#RedSocial{
+    font-size: 4rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+a:hover{
+    color: #880a0a;
+}
